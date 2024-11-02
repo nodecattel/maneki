@@ -1,0 +1,20 @@
+maneki/
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── wallets.csv
+├── README.md
+└── src/
+    ├── index.ts
+    ├── api/
+    │   └── helius-webhook.api.ts
+    ├── handlers/
+    │   └── webhook.handler.ts
+    ├── types/
+    │   └── index.ts
+    └── utils/
+        ├── transaction-formatter.ts
+        ├── transaction-parser.ts
+        └── wallet-manager.ts
